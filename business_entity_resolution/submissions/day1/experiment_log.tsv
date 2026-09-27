@@ -1,0 +1,3 @@
+experiment_id	normalization_rules	matching_rules	val_precision	val_recall	val_f0.5	predicted_matches	singleton_acc	threshold	runtime
+submission_02	compact_norm	vec_block+rapidfuzz	0.926732	0.390823	0.539365	3170643	0.796474	0.75	2548.4
+submission_02	compact_norm	vec_block+rapidfuzz	0.926732	0.390823	0.539365	3170643	0.796474	0.75	2537.8

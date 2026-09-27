@@ -1,0 +1,44 @@
+=============================================================
+FINAL SUBMISSION AUDIT REPORT
+=============================================================
+
+1. DATASET METRICS
+------------------------------------------------------------
+train_ground_truth.tsv   :  2,206,821 rows ( 121.13 MB)
+train_source1.tsv        :  2,206,821 rows ( 200.34 MB)
+train_source2.tsv        :  5,034,616 rows ( 466.63 MB)
+train_source3.tsv        :  5,285,603 rows ( 480.37 MB)
+test_source1.tsv         :  1,732,544 rows ( 166.91 MB)
+test_source2.tsv         :  4,887,273 rows ( 485.86 MB)
+test_source3.tsv         :  5,082,316 rows ( 482.56 MB)
+
+2. SUBMISSION FILES AUDIT
+------------------------------------------------------------
+Submission File                  | Rows      | Dup S1 | Non-Empty | Empty     | Valid Cols
+-------------------------------------------------------------------------------------------
+submissions\day1\submission_01.tsv | 1,732,544 | 0      | 1,358,831 | 373,713   | True      
+submissions\day1\submission_02.tsv | 1,732,544 | 0      | 1,166,163 | 566,381   | True      
+submissions\day1\submission_03.tsv | 1,732,544 | 0      | 1,315,070 | 417,474   | True      
+submissions\day1\submission_04.tsv | 1,732,544 | 0      | 1,204,501 | 528,043   | True      
+submissions\day1\submission_05.tsv | 1,732,544 | 0      | 1,204,501 | 528,043   | True      
+submissions\day2\submission_01.tsv | 1,732,544 | 0      | 955,636   | 776,908   | True      
+submissions\day2\submission_02.tsv | 1,732,544 | 0      | 1,315,070 | 417,474   | True      
+submissions\day2\submission_03.tsv | 1,732,544 | 0      | 955,636   | 776,908   | True      
+submissions\day2\submission_04.tsv | 1,732,544 | 0      | 955,636   | 776,908   | True      
+submissions\day2\submission_05.tsv | 1,732,544 | 0      | 955,636   | 776,908   | True      
+
+3. IDENTICAL SUBMISSIONS (HASH COMPARISON)
+------------------------------------------------------------
+Unique submission: submissions\day1\submission_01.tsv (MD5: bd4bc39134ea3adead33f570ff995c43)
+Unique submission: submissions\day1\submission_02.tsv (MD5: 9f7ce8dfa5a874052225301e6a7d5c72)
+Group 1 (Identical MD5: fc4a9f43deca2276a51e8a4b32208193):
+  - submissions\day1\submission_03.tsv
+  - submissions\day2\submission_02.tsv
+Group 2 (Identical MD5: 3f264497d68c6a7eb9faaeeccf7d2b7c):
+  - submissions\day1\submission_04.tsv
+  - submissions\day1\submission_05.tsv
+Group 3 (Identical MD5: 1f7ceb3d2f08d639904d26de00f9e236):
+  - submissions\day2\submission_01.tsv
+  - submissions\day2\submission_03.tsv
+  - submissions\day2\submission_04.tsv
+  - submissions\day2\submission_05.tsv

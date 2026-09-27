@@ -1,0 +1,65 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ============================================================
+# Dataset files — EXCLUDED (too large for GitHub)
+# ============================================================
+business_entity_resolution/dataset/
+dataset/
+*.tsv.gz
+*.tsv.zip
+
+# Exclude massive raw TSV dataset files
+business_entity_resolution/dataset/train/*.tsv
+business_entity_resolution/dataset/test/*.tsv
+
+# ============================================================
+# Large submission TSV files — excluded (50-180 MB each, GitHub limit is 100 MB)
+# ============================================================
+business_entity_resolution/submissions/day1/submission_*.tsv
+business_entity_resolution/submissions/day2/submission_*.tsv
+business_entity_resolution/final_submission/matching_results.tsv
+business_entity_resolution/final_submission/candidate_pairs.tsv
+business_entity_resolution/output/matching_results.tsv
+business_entity_resolution/output/candidate_pairs.tsv
+
+# ============================================================
+# IDE / OS
+# ============================================================
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Jupyter
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Env
+# ============================================================
+.env
+.venv/
+venv/
+env/
+
+# ============================================================
+# Logs / temp
+# ============================================================
+*.log
+*.tmp
+*.bak
